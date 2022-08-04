@@ -99,3 +99,6 @@ copy_of_words = words[:]
 copy_of_words.append("dojo")
 print(copy_of_words)
 print(words)
+
+print("Hello, world!")
+
