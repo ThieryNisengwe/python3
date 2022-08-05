@@ -125,14 +125,27 @@ foo()
 
 #15
 def foo():
-    print(1)
+    print(1)   # will print 1
     x = bar()
     print(x)
-    return 10
+    return 10  # will return 10 
 def bar():
-    print(3)
-    return 5
+    print(3) # will print 3 
+    return 5 # will return 5 
 y = foo()
 print(y)
 
-# 1,3
+# 1, 3
+
+def tom():
+    print(2) # 2
+    y = rap() # 4
+    print(y) # 10
+    return 69 # 6
+
+def rap():
+    print(4)
+    return 10
+
+z = tom()
+print(z)

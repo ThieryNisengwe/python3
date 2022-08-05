@@ -1,12 +1,13 @@
-def foo():
-    print(1)
-    x = bar()
-    print(x)
-    return 10
-def bar():
-    print(3)
-    return 5
-y = foo()
-print(y)
+def values_greater_than_second(list):
+    if len[list] < 2:
+        return False
+    output = []
+    for i in range(0,len(list)):
+        if list[i] > list[1]:
+            output.append(list[i])
+    print(len(output))
+    return output
 
-# 1,3
+
+print(values_greater_than_second([5,2,3,2,1,4]))
+print(values_greater_than_second([3]))
